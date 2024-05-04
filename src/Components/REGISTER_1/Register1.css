@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    margin-top: 160px;
+}
+
+div.main-container {
+    border: #FDFEFE 1px solid;
+    width: 500px;
+    height: 650px;
+    max-width: 500px;
+    max-height: 650px;
+    transition: all .3s ease;
+    border-radius: 10px;
+    background-color: #FDFEFE;
+
+    & h4.txt-createaccount {
+        text-align: center;
+        margin-top: 20px;
+        transition: all .3s ease;
+        font-size: 26px;
+        text-transform: capitalize;
+        font-family: "Mochiy Pop One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #7B7D7D;
+    }
+
+    & form.container-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & label.text-fullname {
+            position: relative;
+            border: #FDFEFE 1px solid;
+            font-family: "Mochiy Pop One", sans-serif;
+            text-transform: capitalize;
+            font-size: 12px;
+            top: 28px;
+            margin-left: 70px;
+            background-color: #FDFEFE;
+        }
+
+        & input.input-fullname {
+            width: 380px;
+            height: 50px;
+            max-width: 380px;
+            max-height: 50px;
+            transition: all .3s ease;
+            border: #7B7D7D 1px solid;
+            border-radius: 10px;
+            outline: none;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: "Mochiy Pop One", sans-serif;
+            padding-left: 20px;
+            margin-top: 20px;
+        }
+
+        & input.input-fullname:hover {
+            border: #D0D3D4 1px solid;
+        }
+
+        & svg.icon-fullname {
+            width: 20px;
+            fill: #7B7D7D;
+            position: relative;
+            transition: all .3s ease;
+            bottom: 36px;
+            left: 166px;
+        }
+
+        & label.text-email {
+            position: relative;
+            border: #FDFEFE 1px solid;
+            font-family: "Mochiy Pop One", sans-serif;
+            text-transform: capitalize;
+            font-size: 12px;
+            background-color: #FDFEFE;
+            margin-left: 70px;
+            bottom: 8px;
+        }
+
+        & input.input-email {
+            width: 380px;
+            height: 50px;
+            max-width: 380px;
+            max-height: 50px;
+            transition: all .3s ease;
+            border: #7B7D7D 1px solid;
+            border-radius: 10px;
+            outline: none;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: "Mochiy Pop One", sans-serif;
+            padding-left: 20px;
+            margin-top: -16px;
+        }
+
+        & input.input-email:hover {
+            border: #D0D3D4 1px solid;
+        }
+
+        & svg.icon-email {
+            width: 20px;
+            fill: #7B7D7D;
+            position: relative;
+            transition: all .3s ease;
+            left: 166px;
+            bottom: 36px;
+        }
+
+        & label.text-phoneNumber {
+            position: relative;
+            border: #FDFEFE 1px solid;
+            font-family: "Mochiy Pop One", sans-serif;
+            text-transform: capitalize;
+            font-size: 12px;
+            background-color: #FDFEFE;
+            margin-left: 70px;
+            bottom: 8px;
+        }
+
+        & input.input-phoneNumber {
+            width: 380px;
+            height: 50px;
+            max-width: 380px;
+            max-height: 50px;
+            transition: all .3s ease;
+            border: #7B7D7D 1px solid;
+            border-radius: 10px;
+            outline: none;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: "Mochiy Pop One", sans-serif;
+            padding-left: 20px;
+            margin-top: -16px;
+        }
+
+        & input.input-phoneNumber:hover {
+            border: #D0D3D4 1px solid;
+        }
+
+        & svg.icon-phoneNumber {
+            width: 20px;
+            fill: #7B7D7D;
+            position: relative;
+            transition: all .3s ease;
+            left: 166px;
+            bottom: 36px;
+        }
+
+        & label.text-password {
+            position: relative;
+            border: #FDFEFE 1px solid;
+            font-family: "Mochiy Pop One", sans-serif;
+            text-transform: capitalize;
+            font-size: 12px;
+            background-color: #FDFEFE;
+            margin-left: 70px;
+            bottom: 8px;
+        }
+
+        & input.input-password {
+            width: 380px;
+            height: 50px;
+            max-width: 380px;
+            max-height: 50px;
+            transition: all .3s ease;
+            border: #7B7D7D 1px solid;
+            border-radius: 10px;
+            outline: none;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: "Mochiy Pop One", sans-serif;
+            padding-left: 20px;
+            margin-top: -16px;
+        }
+
+        & input.input-password:hover {
+            border: #D0D3D4 1px solid;
+        }
+
+        & svg.icon-password {
+            width: 20px;
+            fill: #7B7D7D;
+            position: relative;
+            transition: all .3s ease;
+            left: 166px;
+            bottom: 36px;
+        }
+
+        & label.text-cfpassword {
+            position: relative;
+            border: #FDFEFE 1px solid;
+            font-family: "Mochiy Pop One", sans-serif;
+            text-transform: capitalize;
+            font-size: 12px;
+            background-color: #FDFEFE;
+            margin-left: 70px;
+            bottom: 8px;
+        }
+
+        & input.input-cfpassword {
+            width: 380px;
+            height: 50px;
+            max-width: 380px;
+            max-height: 50px;
+            transition: all .3s ease;
+            border: #7B7D7D 1px solid;
+            border-radius: 10px;
+            outline: none;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: "Mochiy Pop One", sans-serif;
+            padding-left: 20px;
+            margin-top: -16px;
+        }
+
+        & input.input-cfpassword:hover {
+            border: #D0D3D4 1px solid;
+        }
+
+        & svg.icon-cfpassWord {
+            width: 20px;
+            fill: #7B7D7D;
+            position: relative;
+            transition: all .3s ease;
+            left: 166px;
+            bottom: 36px;
+        }
+
+        /* CHECKBOX-IN-FORM */
+        & label.container {
+            display: block;
+            position: relative;
+            padding-right: 100px;
+            cursor: pointer;
+            font-size: 12px;
+            font-family: "Mochiy Pop One", sans-serif;
+            color: #D0D3D4;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            transition: all .3s ease;
+
+            & b.class-bold {
+                color: #000000;
+            }
+        }
+
+        & label.container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            width: 0;
+            height: 0;
+        }
+
+        & span.checkmark {
+            position: absolute;
+            top: 3px;
+            left: -25px;
+            width: 15px;
+            height: 15px;
+            border-radius: 3px;
+            background-color: #7B7D7D;
+            transition: all .3s ease;
+        }
+
+        & label.container:hover input ~ span.checkmark {
+            background-color: #D0D3D4;
+        }
+
+        & label.container input:checked ~ span.checkmark {
+            background-color: #000000;
+        }
+
+        & span.checkmark::after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        & label.container input:checked ~ span.checkmark::after {
+            display: block;
+        }
+
+        & label.container span.checkmark::after {
+            left: 4.5px;
+            bottom: 4px;
+            width: 4px;
+            height: 8px;
+            border: #FDFEFE 1px solid;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        /* BUTTON CREATE ACCOUNT */
+        & button.button-btn {
+            transition: all .3s ease;
+            width: 320px;
+            height: 50px;
+            max-width: 320px;
+            max-height: 50px;
+            margin-top: 40px;
+            border: #000000 1px solid;
+            border-radius: 10px;
+            background-color: #000000;
+            color: #FDFEFE;
+            font-family: "Mochiy Pop One", sans-serif;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+
+        & button.button-btn:hover {
+            border: #D0D3D4 1px solid;
+            background-color: #D0D3D4;
+            color: #000000;
+        }
+    }
+
+    /* LOGIN LINK*/
+    & p.txt-already {
+        text-align: center;
+        display: block;
+        margin-top: 20px;
+        transition: all .3s ease;
+        font-family: "Mochiy Pop One", sans-serif;
+        font-size: 12px;
+        color: #7B7D7D;
+
+        & a.login-link {
+            font-size: 13px;
+            color: #000000;
+            text-decoration: none;
+            text-transform: capitalize;
+            transition: all .3s ease;
+        }
+
+        & a.login-link:hover {
+            color: #D0D3D4;
+        }
+    }
+}

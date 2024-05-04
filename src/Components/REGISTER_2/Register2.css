@@ -1,0 +1,196 @@
+/* IMPORT FONT FROM GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* STYLE CSS */
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+div.main-container {
+    transition: all .3s ease;
+    border: #FDFEFE 1px solid;
+    border-radius: 10px;
+    background-color: #FDFEFE;
+    width: 500px;
+    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 160px;
+
+    & h1.txt-signup {
+        transition: all .3s ease;
+        font-size: 34px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20px;
+        color: #7B7D7D;
+    }
+
+    & form.container-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        & input.input-username {
+            transition: all .3s ease;
+            width: 380px;
+            height: 50px;
+            max-width: 380px;
+            max-height: 50px;
+            margin-top: 20px;
+            border: none;
+            border-bottom: #7B7D7D 1px solid;
+            cursor: pointer;
+            outline: none;
+            font-size: 15px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 550;
+            padding-left: 20px;
+        }
+
+        & input.input-username:hover {
+            border-bottom: #D0D3D4 1px solid;
+        }
+
+        & input.input-email {
+            transition: all .3s ease;
+            width: 380px;
+            height: 50px;
+            max-width: 380px;
+            max-height: 50px;
+            margin-top: 20px;
+            border: none;
+            border-bottom: #7B7D7D 1px solid;
+            cursor: pointer;
+            outline: none;
+            font-size: 15px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 550;
+            padding-left: 20px;
+        }
+
+        & input.input-email:hover {
+            border-bottom: #D0D3D4 1px solid;
+        }
+
+        & input.input-password {
+            transition: all .3s ease;
+            width: 380px;
+            height: 50px;
+            max-width: 380px;
+            max-height: 50px;
+            margin-top: 20px;
+            border: none;
+            border-bottom: #7B7D7D 1px solid;
+            cursor: pointer;
+            outline: none;
+            font-size: 15;
+            font-family: "Poppins", sans-serif;
+            font-weight: 550;
+            padding-left: 20px;
+        }
+
+        & input.input-password:hover {
+            border-bottom: #D0D3D4 1px solid;
+        }
+
+        & input.input-cfpassWord {
+            transition: all .3s ease;
+            width: 380px;
+            height: 50px;
+            max-width: 380px;
+            max-height: 50px;
+            margin-top: 20px;
+            border: none;
+            border-bottom: #7B7D7D 1px solid;
+            cursor: pointer;
+            outline: none;
+            font-size: 15px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 550;
+            padding-left: 20px;
+        }
+
+        & input.input-cfpassWord:hover {
+            border-bottom: #D0D3D4 1px solid;
+        }
+
+        & button.button-btn {
+            transition: all .3s ease;
+            margin-top: 60px;
+            width: 300px;
+            height: 50px;
+            max-width: 300px;
+            max-height: 50px;
+            border: #000000 1px solid;
+            border-radius: 10px;
+            background-color: #000000;
+            color: #FDFEFE;
+            font-size: 18px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 550;
+            cursor: pointer;
+        }
+
+        & button.button-btn:hover {
+            border: #D0D3D4 1px solid;
+            background-color: #D0D3D4;
+            color: #000000;
+        }
+    }
+}
+
+/* RESPONSIVE REGISTER */
+@media (max-width: 500px) {
+    div.main-container {
+        width: 400px;
+        max-width: 400px;
+
+        & form.container-form {
+            & input.input-username, input.input-email, input.input-password, input.input-cfpassWord {
+                width: 340px;
+                max-width: 340px;
+            }
+
+            & button.button-btn {
+                width: 260px;
+                max-width: 260px;
+            }
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    div.main-container {
+        width: 300px;
+        max-width: 300px;
+
+        & form.container-form {
+            & input.input-username, input.input-email, input.input-password, input.input-cfpassWord {
+                width: 240px;
+                max-width: 240px;
+            }
+
+            & button.button-btn {
+                width: 200px;
+                max-width: 200px;
+            }
+        }
+    }
+}
